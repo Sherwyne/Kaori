@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'adamgorry-lights';
+    src: url('fonts/adam_gorry_lights-webfont.ttf') format('ttf'),
+         url('fonts/adam_gorry_lights-webfont.woff2') format('woff2'),
+         url('fonts/adam_gorry_lights-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'sweet-dreams';
+	src: url('fonts/Sweet Dreamdemo.eot');
+	src: local('☺'), url('fonts/Sweet Dreamdemo.woff') format('woff'), url('fonts/Sweet Dreamdemo.ttf') format('truetype'), url('fonts/Sweet Dreamdemo.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
