@@ -92,10 +92,6 @@ body{
     font-size: 41px;
 }
 
-.fix-img{
-    max-height: 100%;
-    height: 250px;
-}
 .img-brand{
     width: 250px;
 }
@@ -116,6 +112,19 @@ body{
 .brand img{
     display: block;
     max-width: 100%;
+    width: 250px; 
+}
+
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+.fix-img{
+    max-width: 100%;
     width: 250px;
-    
 }
