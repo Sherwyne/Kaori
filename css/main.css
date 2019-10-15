@@ -10,16 +10,26 @@ body{
 .navbar-header.col {
     padding: 0 !important;
 }	
+
 .header{
     margin-top: 80px;
     background-color: pink; 
     width: 100%;
     padding-bottom: 20px;
+} 
+@media screen and (min-width:500px){
+    .header{
+        margin-top: 80px;
+        background-color: pink; 
+        width: 100%;
+        padding-bottom: 20px;
+        height:100vh;
+    } 
 }
 .header img{
     margin-top: 20px;
     max-width: 100%;
-    width: 250px;
+    width: 50%;
 }
 .navbar {
     background-color:#fff;		
@@ -60,22 +70,39 @@ body{
     background: transparent !important;
 }
 
-/* Carousel */
 .carousel{
     background: #fedee3;
     position: relative;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
+/* Carousel */
+@media screen and (min-width:500px){
+    .carousel{
+        background: #fedee3;
+        position: relative;
+        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        height:100vh;
+    }
+}
+
 
 .carousel .item {
     text-align: center;
 	overflow: hidden;
 }
 .carousel .item img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+    max-width: 100%;
+    width:500px;
+    height:auto;
     margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+}
+@media screen and (min-width:900px){
+    .carousel .item img {
+        max-width: 100%;
+        width:650px;
+        height:auto;
+        margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+    }
 }
 
 .carousel .carousel-control {
